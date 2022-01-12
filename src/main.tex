@@ -1,0 +1,47 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass{article}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguage{russian}
+
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setromanfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont{Courier New}
+
+\usepackage[margin=2cm, top=2cm, bottom=2cm, nohead]{geometry}
+\usepackage{enumitem}
+\usepackage{indentfirst}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage{url}
+
+\usepackage{blindtext}
+
+\title{Title}
+\author{Author}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+Привет мир! This is an \textit{example} of a document compiled with \textbf{XeLaTeX}.
+
+\subsection{Monospaced fonts}
+You can use Noto's monospaced fonts for \texttt{regular} and \texttt{\textbf{bold}} monospaced text.
+
+\subsection{Sans serif fonts}
+Here is some \textsf{text is typeset in a sans serif font} together with \textbf{\textsf{text typeset in bold sans serif}}.
+
+\subsection{Generating dummy text}
+
+\blindtext
+
+\end{document}
