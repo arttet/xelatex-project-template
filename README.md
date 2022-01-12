@@ -1,2 +1,1 @@
-# xelatex-project-template
-XeLaTeX Project Template
+# XeLaTeX Project Template
